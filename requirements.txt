@@ -1,0 +1,11 @@
+# Librerías necesarias para el taller
+# Instala todo con:  pip install -r requirements.txt
+
+numpy
+pandas
+matplotlib
+seaborn
+
+# Entorno de notebooks (para trabajar en local; en Google Colab ya viene incluido)
+jupyter
+notebook

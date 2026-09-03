@@ -1,0 +1,31 @@
+Este material educativo se publica bajo la licencia
+Creative Commons Atribución 4.0 Internacional (CC BY 4.0).
+
+Eres libre de:
+
+  - Compartir: copiar y redistribuir el material en cualquier medio o formato.
+  - Adaptar: remezclar, transformar y construir a partir del material,
+    para cualquier propósito, incluso comercial.
+
+Bajo los siguientes términos:
+
+  - Atribución: debes dar el crédito apropiado, proporcionar un enlace a la
+    licencia e indicar si se realizaron cambios. Puedes hacerlo de cualquier
+    forma razonable, pero no de una manera que sugiera que el licenciante te
+    respalda a ti o al uso que haces.
+
+Sugerencia de atribución:
+  "Introducción a la manipulación y visualización de datos con Python",
+  taller propuesto por Deiber Gongora para los Grupos de Estudio Autónomo (GEA)
+  de la Facultad de Ingeniería, Universidad Nacional de Colombia, Sede Bogotá.
+
+Texto legal completo de la licencia:
+https://creativecommons.org/licenses/by/4.0/legalcode.es
+
+------------------------------------------------------------------------------
+NOTA SOBRE EL CONJUNTO DE DATOS
+------------------------------------------------------------------------------
+El archivo data/housing.csv (California Housing Prices) proviene de:
+Pace, R. Kelley & Ronald Barry (1997), "Sparse Spatial Autoregressions",
+Statistics & Probability Letters. Se distribuye de forma pública con fines
+educativos y de investigación.
