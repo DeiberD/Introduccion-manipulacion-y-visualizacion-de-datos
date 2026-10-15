@@ -18,3 +18,9 @@ Thumbs.db
 # Editores
 .vscode/
 .idea/
+
+# Node.js (no forma parte del taller)
+node_modules/
+package.json
+package-lock.json
+npm-debug.log*
