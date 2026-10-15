@@ -68,10 +68,12 @@ Todo se hace resolviendo una pregunta real:
 │       └── 03_soluciones_visualizacion.ipynb
 │
 ├── material_complementario/      ← temas que van MÁS ALLÁ del taller
+│   ├── README.md                 ← por dónde empezar
 │   ├── 01_numpy_mas_alla.md
 │   ├── 02_pandas_mas_alla.md
 │   ├── 03_visualizacion_mas_alla.md
-│   └── 04_buenas_practicas.md
+│   ├── 04_buenas_practicas.md
+│   └── 05_proyecto_guiado.md     ← un análisis completo paso a paso
 │
 ├── docs/                         ← guías de apoyo
 │   ├── configuracion_entorno.md  ← cómo preparar tu entorno (Colab o local)
@@ -128,7 +130,9 @@ jupyter notebook
 | 7 | `notebooks/07_seaborn.ipynb` | Gráficas con Seaborn | 15 min |
 | 8 | `notebooks/08_cierre.ipynb` | Cierre y repaso | 10 min |
 
-Después del taller: practica con la carpeta **`ejercicios/`** y profundiza con **`material_complementario/`**.
+Después del taller: practica con la carpeta **`ejercicios/`**, profundiza con
+**`material_complementario/`** (cada documento trae mini-retos con solución) y pon todo junto en el
+**proyecto guiado** (`material_complementario/05_proyecto_guiado.md`).
 
 ---
 
