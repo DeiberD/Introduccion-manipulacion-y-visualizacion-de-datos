@@ -57,7 +57,7 @@ mediana = df["total_bedrooms"].median()
 df["total_bedrooms"] = df["total_bedrooms"].fillna(mediana)   # rellenar con la mediana
 ```
 
-> 💡 No hay una única respuesta correcta: eliminar es más simple pero pierde datos; rellenar
+> **Nota:** No hay una única respuesta correcta: eliminar es más simple pero pierde datos; rellenar
 > conserva filas pero introduce valores "inventados". La decisión depende del problema.
 
 ---

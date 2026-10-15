@@ -55,27 +55,36 @@ Esto le da **narrativa** al taller y evita que se sienta como una lista de funci
 
 **M1 · Introducción.** Arranca con la pregunta abierta *"¿qué entienden por analizar datos?"* y
 recoge respuestas. No definas las librerías a fondo: solo di, en una frase, para qué sirve cada una.
+Cierra con **"Haz tu apuesta"**: que voten a mano alzada qué factor creen que pesa más. Anota el
+resultado en el tablero; lo retomarás en M7 y M8.
 
 **M2 · NumPy.** El objetivo es la **idea** de arreglo y vectorización, no el álgebra lineal.
-Resiste la tentación de mostrar operaciones matriciales.
+Resiste la tentación de mostrar operaciones matriciales. La **carrera lista vs. NumPy** es el gancho:
+pide predicciones antes de ejecutar y compara resultados entre computadores.
 
 **M3 · Pandas intro.** Usa el DataFrame de ejemplo (creado a mano) como "maqueta" del dataset real.
 Enfatiza filas = registros, columnas = variables.
 
 **M4 · Cargar y explorar.** Aquí es donde ven el dato real. Haz que **lean** la salida de `info()`
-y descubran ellos mismos que a `total_bedrooms` le faltan valores.
+y descubran ellos mismos que a `total_bedrooms` le faltan valores. El **momento detective** de
+`value_counts()` (solo 5 distritos `ISLAND`) prepara una lección clave de M5.
 
 **M5 · Manipular.** El módulo más denso. Plantea micro-preguntas y respóndelas con código en vivo.
-El `groupby` por `ocean_proximity` es el momento "ajá" de la sub-pregunta 2.
+El `groupby` por `ocean_proximity` es el momento "ajá" de la sub-pregunta 2. Antes de mostrar
+`agg(["mean", "count"])`, pregunta: *"¿confiamos en que ISLAND es la zona más cara?"*
 
 **M6 · Matplotlib.** Insiste en que **toda** gráfica lleva título y ejes. Señala el "pico" en 500.001
-del histograma como ejemplo de que graficar revela cosas.
+del histograma como ejemplo de que graficar revela cosas. El **mapa escondido** (longitud vs. latitud)
+suele ser el momento más memorable: no anuncies qué va a aparecer, deja que lo descubran.
 
 **M7 · Seaborn.** Muestra lo poco que hay que escribir comparado con Matplotlib. El `boxplot` cierra
-la sub-pregunta 2 de forma contundente.
+la sub-pregunta 2 de forma contundente. El `heatmap` de correlaciones resuelve la **apuesta** de M1:
+explica la escala -1 a 1 en una frase y compara con lo que votó el grupo. Si vas corto de tiempo,
+esta es la sección que puedes mostrar ya ejecutada.
 
 **M8 · Cierre.** Deja que **ellos** propongan variables y tipo de gráfico para el reto final.
-Repasa el flujo completo y comparte el material complementario.
+Repasa el flujo completo, las **tres ideas para llevar** y comparte el material complementario.
+La solución del reto está oculta en un desplegable para quien quiera revisarla después.
 
 ---
 
@@ -91,7 +100,7 @@ Repasa el flujo completo y comparte el material complementario.
 ## Después del taller
 
 - Comparte el repositorio completo (notebooks ejecutados + `ejercicios/` + `material_complementario/`).
-- Anima a resolver los ejercicios, incluidos los retos ⭐ que van más allá de lo visto.
+- Anima a resolver los ejercicios, incluidos los retos extra que van más allá de lo visto.
 - Registra la asistencia.
 - Recoge retroalimentación (¿qué quedó claro?, ¿qué faltó?) para mejorar la próxima edición.
 

@@ -56,7 +56,7 @@ de Aurélien Géron, y hoy es un dataset de referencia para aprender análisis d
 - **También disponible en Kaggle:**
   https://www.kaggle.com/datasets/camnugent/california-housing-prices
 
-> 💡 El archivo `housing.csv` ya está incluido en este repositorio, así que **no necesitas
+> **Nota:** El archivo `housing.csv` ya está incluido en este repositorio, así que **no necesitas
 > descargarlo aparte** para hacer el taller. Los enlaces son solo por transparencia y para quien
 > quiera la fuente original.
 

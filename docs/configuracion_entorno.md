@@ -109,7 +109,7 @@ print("NumPy     :", np.__version__)
 print("Pandas    :", pd.__version__)
 print("Matplotlib:", plt.matplotlib.__version__)
 print("Seaborn   :", sns.__version__)
-print("\n¡Todo listo para el taller! 🎉")
+print("\n¡Todo listo para el taller!")
 ```
 
 Si no aparece ningún error, estás list@.
